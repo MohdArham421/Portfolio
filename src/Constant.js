@@ -186,7 +186,7 @@ export const education=[
       title:"E-Plant Shopping App",
       description:"An e-commerce application for browsing and purchasing indoor plants. Features product categorization, shopping cart functionality, and responsive UI to provide a smooth online shopping experience.",
       image:E_plantShopping,
-      tags:["HTML","CSS","JavaScript",],
+      tags:["React", "HTML","CSS","JavaScript",],
       github:"https://github.com/MohdArham421/e-plantShopping",
       webapp:"https://mohdarham421.github.io/e-plantShopping/"
     },
