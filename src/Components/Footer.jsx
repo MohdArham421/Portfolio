@@ -21,6 +21,7 @@ const Footer = () => {
           {[
             { name: "About", id: "about" },
             { name: "Skills", id: "skills" },
+            { name: "Certificates", id: "certificate" },
             { name: "Projects", id: "project" },
             { name: "Education", id: "education" },    
           ].map((item, index) => (

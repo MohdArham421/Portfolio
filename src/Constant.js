@@ -27,7 +27,13 @@ import TodoApp from './Assets/TodoApp.png'
 import Hoppscotch from './Assets/Hoppscotch.png'
 import java from "./Assets/java.png";
 import render from "./Assets/render.png";
-
+import NPTEL from "./Assets/NPTEL.png";
+import javaC from "./Assets/javaC.png";
+import IEEE from "./Assets/IEEE.png";
+import codec from "./Assets/codec.png";
+import rc from "./Assets/rc.png";
+import ba from "./Assets/ba.png";
+import fr from "./Assets/fr.png";
 
 export const SkillsInfo = [
   {
@@ -106,9 +112,9 @@ export const SkillsInfo = [
       name:'vscode',logo:vscode
     }
   ]
-}
-  
-];
+} ];
+
+
 
 export const education=[
   {
@@ -140,8 +146,9 @@ export const education=[
       degree: "ICSE(X)",
   }
 ]
- export const projects = [
 
+
+ export const projects = [
      {
       id:1,
       title:"Wanderlust",
@@ -215,3 +222,77 @@ export const education=[
       github: "https://github.com/MohdArham421/Simon-Says-Game",
    },
  ]
+
+
+
+ export const certificates = [
+  {
+    id: 1,
+    title: "Data Structures and Algorithms using Java",
+    issuer: "NPTEL",
+    description:
+      "Earned Elite Certification in Data Structures and Algorithms using Java, demonstrating proficiency in algorithm design, data structures, and problem-solving techniques.",
+    image: NPTEL,
+    credential: "https://drive.google.com/file/d/19dEmRLCJmuit10srL0QiivxVzIxWTlai/view?usp=drivesdk",
+  },
+
+  
+    {
+  id: 2,
+  title: "Introduction to HTML, CSS & JavaScript",
+  issuer: "IBM (Coursera)",
+  description:
+    "Learned the fundamentals of web development, including HTML for structuring web pages, CSS for styling, and JavaScript for creating interactive and dynamic user experiences.",
+  image: fr,
+  credential: "https://drive.google.com/file/d/1ti0lnZBow-NQ3hg-tmRQqO05QCROSadX/view?usp=drivesdk",
+},
+
+  {
+  id: 3,
+  title: "Developing Front-End Apps with React",
+  issuer: "IBM (Coursera)",
+  description:
+    "Built interactive and responsive user interfaces using React.js. Gained hands-on experience with components, props, state management, hooks, routing, and modern frontend development practices.",
+  image: rc,
+  credential: "https://drive.google.com/file/d/1TQJatmdK6Mrm0mXHynEYaUAGtW8gr4q2/view?usp=drivesdk",
+  },
+
+{
+  id: 4,
+  title: "Developing Back-End Apps with Node.js and Express",
+  issuer: "IBM (Coursera)",
+  description:
+    "Learned backend application development using Node.js and Express.js, including RESTful APIs, middleware, routing, server-side programming, and integration with databases.",
+  image: ba,
+  credential: "https://drive.google.com/file/d/1Scz1rBmtyzKgmE3F58y0Nu5XcqJcVSPl/view?usp=drivesdk",
+},
+
+  {
+    id: 5,
+    title: "Full Stack Development Training",
+    issuer: "Codec Technologies Pvt Ltd",
+    description:
+      "Completed a 3-month Full Stack Development training covering React.js, Node.js, Express.js, MongoDB, JavaScript, REST APIs, and modern web development practices.",
+    image: codec,
+    credential: "https://drive.google.com/file/d/1br83XiR7v3ihgJQAI6JoDw5jjyw8BPs7/view?usp=drivesdk",
+  },
+
+
+{
+  id: 6,
+  title: "Java Training Program",
+  issuer: "IIT Bombay",
+  description:"Successfully completed Java Programming Training conducted by IIT Bombay. Developed a strong foundation in Object-Oriented Programming (OOP), Java application development, and software engineering principles.",
+  image: javaC,
+  credential: "https://drive.google.com/file/d/18P-bGzUvVBg2J0XFdeQFJMxdCpgytz5U/view?usp=drivesdk",
+},
+
+{
+  id: 7,
+  title: "Research Paper Presentation - India's Heredity: AI Enabled Website",
+  issuer: "International Conference on Modern Trends in Computers and Electronics (ICMCE-2025)",
+  description: "Presented the research paper 'India's Heredity: AI Enabled Website' at the International Conference on Modern Trends in Computers and Electronics (ICMCE-2025). Demonstrated the application of Artificial Intelligence in preserving and promoting India's cultural heritage through innovative web technologies.",
+  image: IEEE,
+  credential: "https://drive.google.com/file/d/1MYO5XwEJrZzCazwiKOeJ-_7xN5Kb-Ady/view?usp=drivesdk",
+},
+];

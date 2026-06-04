@@ -7,6 +7,9 @@ import Work from "./Components/Work.jsx"
 import Education from "./Components/Education.jsx";
 import Contact from "./Components/Contact.jsx";
 import Footer from "./Components/Footer.jsx";
+import Certificates from "./Components/Certificates";
+
+
 const App = () => {
   return (
     <div className="bg-[#050414]">
@@ -22,6 +25,7 @@ const App = () => {
 
  <section id="about"><About /></section>
 <section id="skills"><Skills /></section>
+<section id="certificate"><Certificates /></section>
 <section id="project"><Work /></section>
 <section id="education"><Education /></section>
 <section id="contact"><Contact /></section>
