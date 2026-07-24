@@ -45,7 +45,7 @@ const About = () => {
           </p>
 
           <a
-            href="https://drive.google.com/file/d/1UKIG3CIUKA-4GHN2Hn01YFSAksaMBF89/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1emiDP2Sd4UAIs-cra5m1PqjQPGAnm-JS/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -55,7 +55,7 @@ const About = () => {
                 '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
             }}
           >
-            DOWNLOAD CV
+            DOWNLOAD RESUME
           </a>
         </div>
 
