@@ -15,6 +15,7 @@ import vscode from './Assets/vscode.png'
 import postman from './Assets/postman.png'
 import git from './Assets/git.png'
 import Wanderlust from './Assets/Wanderlust.png'
+import HealthScreeningVoice from './Assets/HealthScreeningVoice.png'
 import Convertor from './Assets/Convertor.png'
 import Echoboard from './Assets/Echoboard.png'
 import E_plantShopping from './Assets/E_plantShopping.png'
@@ -162,6 +163,17 @@ export const education=[
 
     {
       id:2,
+      title:"Voice-AI Medical Intake Screening Platform",
+      description:"A full-stack conversational voice-AI application that conducts preliminary clinical screenings. Built with React.js, Node.js, WebSockets, and OpenAI (Whisper, GPT-4, TTS) to handle bilingual dialogue, barge-in detection, and structured medical summaries.",
+      image:HealthScreeningVoice,
+      tags:["React.js", "Node.js", "WebSockets", "OpenAI API", "Web Audio API"],
+      github:"https://github.com/MohdArham421/health-screening-voice",
+      webapp:"https://health-screening-voice.vercel.app/"
+    },
+
+
+    {
+      id:3,
       title:"Echoboard",
       description:"A full-stack collaboration platform featuring EchoWall for blogging, EchoChat for real-time communication, and EchoTask for project management. Built with React.js, Node.js, Express.js, MongoDB, and Socket.io to enable seamless team collaboration and productivity.",
       image:Echoboard,
@@ -172,7 +184,7 @@ export const education=[
 
 
     {
-      id: 3,
+      id: 4,
       title: "React Projects",
       description: "Collection of my React.js Projects.",
       image: reactProjects ,
@@ -182,7 +194,7 @@ export const education=[
     
    
     {
-      id:4,
+      id:5,
       title:"E-Plant Shopping App",
       description:"An e-commerce application for browsing and purchasing indoor plants. Features product categorization, shopping cart functionality, and responsive UI to provide a smooth online shopping experience.",
       image:E_plantShopping,
@@ -193,7 +205,7 @@ export const education=[
 
 
     {
-      id: 5,
+      id: 6,
       title: "To-Do App",
       description: "A React-based task management application that enables users to add, edit, delete, and organize tasks efficiently. Implemented Context API for centralized state management and Local Storage for persistent task data, ensuring tasks remain available across browser sessions.",
       image: TodoApp,
@@ -203,7 +215,7 @@ export const education=[
 
 
     {
-      id: 6,
+      id: 7,
       title: "Currency Convertor",
       description:
       "The Currency Converter is a simple and easy-to-use web app made with React and Tailwind CSS. It lets users convert one currency into another using the latest exchange rates. The app is fast, works on all devices, and has a clean, user-friendly design",
@@ -214,7 +226,7 @@ export const education=[
     },
 
     {
-      id: 7,
+      id: 8,
       title: "Simon Says Game",
       description: "An interactive memory game where players repeat increasingly complex color sequences. Implemented game logic, score tracking, and responsive user interactions using JavaScript.",
       image: simonSays_Game,
