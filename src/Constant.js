@@ -35,6 +35,8 @@ import codec from "./Assets/codec.png";
 import rc from "./Assets/rc.png";
 import ba from "./Assets/ba.png";
 import fr from "./Assets/fr.png";
+import php from "./Assets/php.png";
+import talantrise from "./Assets/talenrise.png";
 
 export const SkillsInfo = [
   {
