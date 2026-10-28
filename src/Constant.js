@@ -36,7 +36,7 @@ import rc from "./Assets/rc.png";
 import ba from "./Assets/ba.png";
 import fr from "./Assets/fr.png";
 import php from "./Assets/php.png";
-import talentrise from "./Assets/talenrise.png";
+import talentrise from "./Assets/talentrise.png";
 
 export const SkillsInfo = [
   {
