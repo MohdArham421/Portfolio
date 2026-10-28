@@ -279,8 +279,19 @@ export const education=[
   credential: "https://drive.google.com/file/d/1Scz1rBmtyzKgmE3F58y0Nu5XcqJcVSPl/view?usp=drivesdk",
 },
 
+{
+  id: 5,
+  title: "Node.js Developer Internship",
+  issuer: "Talentrise Technokrate Pvt. Ltd.",
+  description:
+    "Completed a 3-month Node.js Developer Internship involving Node.js, Express.js, JavaScript, REST API development, MongoDB, database integration, GitHub, API testing, debugging, backend module development, and application maintenance.",
+  image: talentrise,
+  credential: "https://drive.google.com/file/d/195w-AL4_u9E9VO4ROz-7a2Ew73ga2aqU/view?usp=drivesdk",
+},
+
+
   {
-    id: 5,
+    id: 6,
     title: "Full Stack Development Training",
     issuer: "Codec Technologies Pvt Ltd",
     description:
@@ -291,7 +302,7 @@ export const education=[
 
 
 {
-  id: 6,
+  id: 7,
   title: "Java Training Program",
   issuer: "IIT Bombay",
   description:"Successfully completed Java Programming Training conducted by IIT Bombay. Developed a strong foundation in Object-Oriented Programming (OOP), Java application development, and software engineering principles.",
@@ -300,11 +311,23 @@ export const education=[
 },
 
 {
-  id: 7,
+  id: 8,
   title: "Research Paper Presentation - India's Heredity: AI Enabled Website",
   issuer: "International Conference on Modern Trends in Computers and Electronics (ICMCE-2025)",
   description: "Presented the research paper 'India's Heredity: AI Enabled Website' at the International Conference on Modern Trends in Computers and Electronics (ICMCE-2025). Demonstrated the application of Artificial Intelligence in preserving and promoting India's cultural heritage through innovative web technologies.",
   image: IEEE,
   credential: "https://drive.google.com/file/d/1MYO5XwEJrZzCazwiKOeJ-_7xN5Kb-Ady/view?usp=drivesdk",
 },
+
+
+{
+  id: 9,
+  title: "PHP and MySQL Training",
+  issuer: "EduPyramids, SINE, IIT Bombay",
+  description:
+    "Successfully completed PHP and MySQL training through Teerthanker Mahaveer University, with course material provided by EduPyramids, SINE, IIT Bombay. Passed the online examination with a score of 75%.",
+  image: php,
+  credential: "https://drive.google.com/file/d/1aJmouZnIShLTSmvzWdliuvfbhQIYW24E/view?usp=drivesdk",
+},
+
 ];
